@@ -11,6 +11,11 @@
 .div {
     display: flex;
 }
+
+.title h1 {
+    font-family: 'Press Start 2P', Arial, sans-serif;
+}
+
 :root{
     --bacground-itens: #262c61;
     --text: #fff;
@@ -490,6 +495,27 @@ footer .box-flex .sobre {
     nav .store span{
         font-size: 1rem;
         margin-left: 4px;
+    }
+
+    .container-perfil .diamantes i{
+        font-size: 1em;
+        border-radius: 50%;
+        position: absolute;
+        right: 5px;
+        top: 4px;
+        bottom: 5px;
+        left: 86px;
+    }
+
+    .container-perfil .diamantes {
+        padding: 5px 10px;
+        margin-top: 0;
+    }
+
+    .diamantes .number span{
+        font-size: 1.2rem;
+        font-weight: bolder;
+        margin: 0;
     }
 
     .item-01, .item-02, .item-03, .item-04 {
